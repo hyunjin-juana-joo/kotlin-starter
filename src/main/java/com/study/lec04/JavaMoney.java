@@ -1,5 +1,6 @@
-package com.study.common;
+package com.study.lec04;
 
+import java.util.Objects;
 import org.jetbrains.annotations.NotNull;
 
 public class JavaMoney implements Comparable<JavaMoney> {
@@ -25,6 +26,18 @@ public class JavaMoney implements Comparable<JavaMoney> {
         if (o == null || getClass() != o.getClass()) return false;
         JavaMoney javaMoney = (JavaMoney) o;
         return amount == javaMoney.amount;
+    }
+
+    @Override
+    public String toString() {
+        return "JavaMoney{" +
+            "amount=" + amount +
+            '}';
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(amount);
     }
 
 }

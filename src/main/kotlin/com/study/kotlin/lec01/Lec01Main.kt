@@ -1,6 +1,6 @@
-package com.study.java.kotlin.lec01
+package com.study.kotlin.lec01
 
-import com.study.java.lec01.Person
+import com.study.lec01.Person
 
 fun main() {
 
@@ -11,6 +11,6 @@ fun main() {
     var number4: Long? = 1_000L
     number4 = null
 
-    var person = Person("주현진")
+    var person = Person("주현진", 32)
 
 }

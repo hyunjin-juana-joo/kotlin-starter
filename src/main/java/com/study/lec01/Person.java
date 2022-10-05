@@ -1,4 +1,4 @@
-package com.study.common;
+package com.study.lec01;
 
 import org.jetbrains.annotations.Nullable;
 
