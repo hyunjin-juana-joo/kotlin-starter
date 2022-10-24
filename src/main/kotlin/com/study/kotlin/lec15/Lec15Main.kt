@@ -2,7 +2,6 @@ package com.study.kotlin.lec15
 
 fun main() {
 
-
     val oldMap = mutableMapOf<Int, String>()
     oldMap[1] = "MONDAY"
     oldMap[2] = "TUESDAY"
