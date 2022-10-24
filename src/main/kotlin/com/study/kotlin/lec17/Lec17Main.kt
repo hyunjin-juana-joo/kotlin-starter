@@ -1,8 +1,6 @@
 package com.study.kotlin.lec17
 
 import com.study.lec17.Fruit
-import com.study.lec17.FruitFilter
-import com.study.lec17.Java17Main
 import java.io.BufferedReader
 import java.io.FileReader
 
@@ -53,11 +51,13 @@ fun readFile(path: String) {
 private fun filterFruits(
     fruits: List<Fruit>, filter: (Fruit) -> Boolean
 ): List<Fruit> {
-    val results = mutableListOf<Fruit>()
-    for (fruit in fruits) {
-        results.add(fruit)
-    }
-    return results;
+    return fruits.filter(filter)
+//    val results = mutableListOf<Fruit>()
+//    for (fruit in fruits) {
+//        results.add(fruit)
+//    }
+//
+//    return results;
 }
 
 

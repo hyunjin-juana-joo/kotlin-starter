@@ -25,7 +25,7 @@ public class Java17Main {
         targetFruitName = "수박";
 
         // Java에서는 람다를 쓸때 사용할 수 있는 변수에 제약이 있음 (final인 변수 혹은 실질적 final인 변수만 사용가능)
-        filterFruits(fruits, (fruit) -> targetFruitName.equals(fruit.getName()));
+//        filterFruits(fruits, (fruit) -> targetFruitName.equals(fruit.getName()));
 
     }
 
